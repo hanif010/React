@@ -7,6 +7,10 @@ import Welcome2 from "./6-Welcome2"
 import Props from "./7-Props";
 import Msg from "./8-Msg";
 import Msg2 from "./9-Msg2";
+import Count from "./10-Count";
+import ClassClick from "./11-ClassClick";
+import FunctionClick from "./12-FunctionClick";
+
 
 
 function App() {
@@ -29,6 +33,9 @@ function App() {
 
             <Msg2 messgae= "Bye"/>
 
+            <Count/>
+            <ClassClick/>
+            <FunctionClick/>
         </div>
     )
 }
